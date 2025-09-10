@@ -1,3 +1,5 @@
+package practice;
+
 public class SquareDigitRoot {
 
     public static int calculateTotal(String value) {

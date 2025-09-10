@@ -1,3 +1,5 @@
+package practice;
+
 public class Demo {
     public void binaryFormat(){
         int n=10;
