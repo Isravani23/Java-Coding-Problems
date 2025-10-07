@@ -16,7 +16,9 @@ public class LargestElement {
     public static void main(String[] args) {
         int[] nums =  {3, 3, 0, 99, -40};
         int t = Arrays.stream(nums).max().getAsInt();
+        int s = Arrays.stream(nums).min().getAsInt();
         int res = largeValue(nums);
         System.out.println(t);
+        System.out.println(s);
     }
 }

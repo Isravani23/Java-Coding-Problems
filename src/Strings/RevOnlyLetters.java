@@ -1,5 +1,8 @@
 package Strings;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class RevOnlyLetters {
     public static void reverseLetters(String input){
         char[] c = input.toCharArray();
@@ -22,7 +25,10 @@ public class RevOnlyLetters {
         System.out.println(c);
     }
     public static void main(String[] args) {
-        String s = "I Am Not String";
+        String s = "Let's take LeetCode contest";
+        String rotate = Arrays.stream(s.split(" ")).map(word->new StringBuilder(word).reverse())
+                        .collect(Collectors.joining(" "));
+        System.out.println(rotate);
         reverseLetters(s);
     }
 }
