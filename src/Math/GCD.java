@@ -1,4 +1,4 @@
-package Arrays;
+package Math;
 /*Example 1:
 Input:N1 = 9, N2 = 12
 Output:3

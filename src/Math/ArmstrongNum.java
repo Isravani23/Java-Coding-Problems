@@ -1,4 +1,4 @@
-package Arrays;
+package Math;
 
 public class ArmstrongNum {
     public static  boolean amstrong(int n){
