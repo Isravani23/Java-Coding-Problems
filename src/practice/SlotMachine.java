@@ -16,7 +16,7 @@ public class SlotMachine {
 
         for (int num : numbers) {
             String s = String.format("%" + maxLength + "s", String.valueOf(num)).replace(' ', '0');
-            System.out.println("valu" +s);
+            System.out.println("value" +s);
             int[] digits = new int[maxLength];
             for (int i = 0; i < maxLength; i++) {
                 digits[i] = s.charAt(i) - '0';
